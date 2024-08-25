@@ -6,3 +6,7 @@ Clone or download this repository, ```cd``` into the repository and run ```pip i
 
 ## Files
 - **[session_preprocessing.py](clc_analysis/phase/session_preprocessing.py)** defines the ```SessionParam``` and ```SessionData``` objects. ```SessionParam``` contains the meta-parameters of an experiment session. ```SessionData``` preprocesses and integrates all data belong to the session specified by ```SessionParam```. The data of interest is local field potential (LFP) data and digital input and output (DIO) data.
+
+- **[organize_cycle.py](clc_analysis/phase/organize_cycle.py)** implements the ```organize_cycle``` function. ```organize_cycle``` parses a session's data into oscillatory cycles to facilitate cycle-to-cycle analysis.
+
+- **[phase_plot.py](clc_analysis/phase/phase_plot.py)** implements various plotting functions. For example, ```event_phase_hist``` produces a circular histogram of the stimulation phases. ```event_phase_self_xcorr``` produces an autocorrelogram of the unwrapped stimulation phases. Many more are available.
