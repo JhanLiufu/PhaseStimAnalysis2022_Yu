@@ -10,3 +10,5 @@ Clone or download this repository, ```cd``` into the repository and run ```pip i
 - **[organize_cycle.py](clc_analysis/phase/organize_cycle.py)** implements the ```organize_cycle``` function. ```organize_cycle``` parses a session's data into oscillatory cycles to facilitate cycle-to-cycle analysis.
 
 - **[phase_plot.py](clc_analysis/phase/phase_plot.py)** implements various plotting functions. For example, ```event_phase_hist``` produces a circular histogram of the stimulation phases. ```event_phase_self_xcorr``` produces an autocorrelogram of the unwrapped stimulation phases. Many more are available.
+
+- **[notebooks](clc_analysis/notebooks)** contains jupyer notebooks for the commonly used analysis. ```Analysis_quantify_stimulation_accuracy.ipynb``` is the most often used one; it quantifies the stimulation performance.
