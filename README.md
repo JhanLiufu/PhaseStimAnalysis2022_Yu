@@ -1,2 +1,2 @@
 # PhaseStimAnalysis2022_Yu
-Package for analyzing performance of phase detection and phase-specific stimulation systems
+Package for analyzing performance of phase detection and phase-specific stimulation systems. For more introduction of the project, see its [project page](https://jhanliufu.github.io/projects/closed_loop_control.html) on Jhan's website.
